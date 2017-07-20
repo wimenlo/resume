@@ -1,0 +1,15 @@
+/*RESET*/
+*{margin:0;padding:0;}
+
+html,body{width:100%;height:100%;position:relative;}
+.wrapper{width:100%;height:100%;}
+.page{position:absolute;top:0;left:0;right:0;bottom:0;display:none;}
+.page.active{display:block;}
+.page.p1{background-color:lightseagreen}
+.page.p2{background-color:coral}
+.page.p3{background-color:firebrick}
+.page-content{color:#fff;font-family:微软雅黑;font-size:30px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+
+.nav{position:absolute;left:5%;top:50%;transform:translateY(-50%);text-align:center;}
+.nav .dot{margin:10px 0;width:5px;height:5px;background-color:#fff;border:1px solid #000;}
+.nav .dot.active{border:1px solid #fff;}
